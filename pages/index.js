@@ -2,9 +2,9 @@ function Home(){
     return 
     <div>
         <ul></ul>
-        <h1>Olá mundo 2</h1>
+        <h1>falando grego</h1>
     </div>
 }
     
 
-export default Home;
+export default Home;s
