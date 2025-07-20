@@ -1,7 +1,14 @@
 function Home() {
   return (
     <div>
-      <h1>Não te aflijas pelo que não podes controlar; 🌿 a vida segue seu curso e tudo se revela no tempo certo. ⏳✨ Tenha fé em sua jornada. 🙏💫</h1>
+      <h1>O egoísmo é uma prisão silenciosa 🧱🤐,
+a inveja, um fogo que consome o próprio coração 🔥💔.
+O traidor não saberá receber amor ❌❤️,
+pois o preço da traição é a perda da confiança,
+a solidão da alma e o vazio que nem o tempo pode preencher. ⏳💔
+Tudo tem um preço — às vezes, é a própria alegria da alma 🎈✨.
+Seja íntegro — respeite as almas que cruzam seu caminho 🤝🌟.
+</h1>
     </div>
   );
 }
