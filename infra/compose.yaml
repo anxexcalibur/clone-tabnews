@@ -1,0 +1,7 @@
+services:
+  database:
+    image: "postgres:16.0-alpine3.18"
+    environment:
+      POSTGRES_PASSWORD: "789GA789"
+    ports: # 👈 Agora o ports está identado certinho dentro de database!
+      - "5432:5432" # 👈 E a definição da porta também foi para a direita
