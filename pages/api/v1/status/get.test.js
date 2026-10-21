@@ -13,5 +13,5 @@ test("GET to /v1/status should returns 200", async () => {
 
   expect(responseBody.max_connections).toBeDefined();
   expect(responseBody.dependencies.database.version).toEqual("16.0");
-  expect(parsedUpdatedAt).toBe(responseBody.updated_at); // Verifica se é uma data válida
+  expect(parsedUpdatedAt).toBe(responseBody.updated_at);
 });
