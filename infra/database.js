@@ -8,10 +8,15 @@ async function query(queryObject) {
     database: process.env.POSTGRES_DB,
     password: process.env.POSTGRES_PASSWORD,
   });
-  await client.connect();
-  const result = await client.query(queryObject);
-  await client.end();
-  return result;
+
+  try {
+    await client.connect();
+    const result = await client.query(queryObject);
+    return result;
+  } finally {
+    // O finally roda obrigatoriamente, com erro ou sem erro!
+    await client.end();
+  }
 }
 
 export default {
