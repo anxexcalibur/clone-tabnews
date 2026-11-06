@@ -1,5 +1,5 @@
 import database from "infra/database.js";
-
+export const dynamic = "force-dynamic";
 async function status(request, response) {
   const updateAt = new Date().toISOString();
   const maxConnections = await database.query("SHOW max_connections;");
